@@ -1,3 +1,4 @@
+from dashboard.app import app
 import time
 import logging
 from src.ingestion import SatelliteTelemetrySimulator
