@@ -1,0 +1,43 @@
+{
+  "transponders": [
+    {
+      "id": "NIGCOMSAT-1R-TP1",
+      "frequency_ghz": 12.25,
+      "polarization": "Horizontal",
+      "baseline_carrier_power_dbm": -65.5,
+      "baseline_noise_power_dbm": -98.0,
+      "baseline_snr_db": 32.5,
+      "allowed_variance": {
+        "power_delta_max": 4.0,
+        "snr_drop_max": 6.0,
+        "frequency_drift_hz_max": 1500.0
+      }
+    },
+    {
+      "id": "NIGCOMSAT-1R-TP2",
+      "frequency_ghz": 12.50,
+      "polarization": "Vertical",
+      "baseline_carrier_power_dbm": -68.0,
+      "baseline_noise_power_dbm": -99.2,
+      "baseline_snr_db": 31.2,
+      "allowed_variance": {
+        "power_delta_max": 4.0,
+        "snr_drop_max": 6.0,
+        "frequency_drift_hz_max": 1500.0
+      }
+    },
+    {
+      "id": "NIGCOMSAT-1R-TP3",
+      "frequency_ghz": 12.75,
+      "polarization": "Circular-Left",
+      "baseline_carrier_power_dbm": -62.1,
+      "baseline_noise_power_dbm": -97.5,
+      "baseline_snr_db": 35.4,
+      "allowed_variance": {
+        "power_delta_max": 3.5,
+        "snr_drop_max": 5.0,
+        "frequency_drift_hz_max": 1000.0
+      }
+    }
+  ]
+}
